@@ -1,0 +1,608 @@
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ff6600;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-image img:hover {
+    transform: scale(1.7);
+}
+
+/* About Content */
+.about-content h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #ff6600;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* CTA Button */
+.cta-btn {
+    background: #ff6600;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background: #cc5200;
+}
+/* CSS - styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+}
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.services-container h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Service Card */
+.service-card {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Hover Effects */
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.5);
+}
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Portfolio Section */
+#portfolio {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.portfolio-container h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Portfolio Item */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Overlay Effect */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 12px;
+}
+
+.overlay h3 {
+    font-size: 22px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 16px;
+    max-width: 80%;
+    text-align: center;
+}
+
+/* Hover Effects */
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Blog Section */
+#blog {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.blog-container h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 30px;
+}
+
+/* Blog Grid */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Blog Card */
+.blog-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.blog-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    color: #ff3300;
+}
+
+/* Hover Effects */
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.5);
+}
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* CTA Section */
+#cta {
+    background: #ff6600;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta-container h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.cta-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #000;
+    color: #ff6600;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #222;
+}
+/* About Section */
+.about-container {
+    text-align: center;
+    background: #121212;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills-buttons {
+    margin-top: 20px;
+}
+
+.glow-button {
+    background: #222;
+    color: #fff;
+    border: 2px solid #ff6600;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.glow-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, rgba(255, 102, 0, 0.5) 10%, rgba(255, 102, 0, 0) 70%);
+    transition: transform 0.3s ease-out;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+.glow-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.glow-button:hover {
+    background: #ff6600;
+    color: #121212;
+    box-shadow: 0 0 15px #ff6600;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-container h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #1e1e1e;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #ff6600;
+}
+
+.submit-button {
+    background: #ff6600;
+    color: #000;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background: #ff3300;
+}
+/* Footer Section */
+footer {
+    background: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #ff6600;
+}
+
+.footer-social {
+    margin: 20px 0;
+}
+
+.footer-social a {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+    color: #ff6600;
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+//*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Digital Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="portfolio">
+        <div class="portfolio-container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="SEO Campaign">
+                    <div class="overlay">
+                        <h3>SEO Campaign</h3>
+                        <p>Increased organic traffic by 150% for a startup.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Social Media Strategy">
+                    <div class="overlay">
+                        <h3>Social Media Strategy</h3>
+                        <p>Boosted engagement by 80% with targeted ads.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Google Ads PPC">
+                    <div class="overlay">
+                        <h3>Google Ads PPC</h3>
+                        <p>Achieved 10x ROI for an e-commerce brand.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project4.jpg" alt="Email Marketing">
+                    <div class="overlay">
+                        <h3>Email Marketing</h3>
+                        <p>Generated $20k revenue with automated email sequences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
